@@ -1,0 +1,34 @@
+{
+  "name": "coffeedev",
+  "version": "1.0.0",
+  "description": "Réseau social pour developpeur et amoureux d'internet",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --mode development -w",
+    "build": "webpack --mode development"
+  },
+  "author": "Gautier DUFRAUX, Benjamin REZEL",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "autoprefixer": "^9.8.4",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.5.0",
+    "bourbon": "^7.0.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "jquery": "^3.5.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^8.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-manifest-plugin": "^2.2.0"
+  }
+}
