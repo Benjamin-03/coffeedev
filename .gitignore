@@ -1,0 +1,6 @@
+_dev/node_modules
+backoffice/_dev/node_modules
+/assets
+backoffice/assets
+yarn.lock
+index.md
