@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1><?= $lang->home->home ?></h1>
+    <?php include("includes/javascript.php")?>
 </body>
 </html>
