@@ -10,7 +10,6 @@ include_once 'config/db.php';
 // definition de la page courante
 if(isset($_GET['page']) && !empty($_GET['page'])){
     $page = trim(strtolower($_GET['page']));
-    var_dump($page);
 } else {
     $page = 'dashboard';
 } 

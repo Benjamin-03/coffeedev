@@ -6,8 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+    <?php getMessage() ?>
     <form action="" method="post">
-    <label for="mail">Donne nous ton mail pour le revendre à des chinois batard</label>
+    <label for="mail">Connecte toi stp</label>
     <input type="email" name="mail" id="mail">
     <label for="password">Mot de passe</label>
     <input type="password" name="password" id="password">
