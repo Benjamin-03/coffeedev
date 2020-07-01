@@ -28,7 +28,7 @@ define('WEBSITE_FACEBOOK_IMAGE', '');
 
 // Database information
 define('DATABASE_HOST', 'localhost');
-define('DATABASE_NAME', 'OCN');
+define('DATABASE_NAME', 'coffeedev');
 define('DATABASE_USER', 'root');
 define('DATABASE_PASSWORD', 'root');
 
