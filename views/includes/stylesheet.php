@@ -6,7 +6,7 @@ function registerStylesheet(){
     $css['theme.css'] = substr($css['theme.css'],7);
 
     $styles = [
-        'main-theme-css' => '<link rel="stylesheet" href="http://localhost/coffedev/assets/css/'.$css['theme.css'].'">',
+        'main-theme-css' => '<link rel="stylesheet" href="http://localhost/coffeedev/assets/css/'.$css['theme.css'].'">',
         'main-theme-sourcemap-css' => '<link rel="stylesheet" href="http://localhost/coffeedev/assets/css/'.$css['theme.css.map'].'">'
     ];
     
