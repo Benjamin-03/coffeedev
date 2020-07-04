@@ -20,6 +20,18 @@ function debug($var)
     echo '</pre>';
 }
 
+function displaySuccess($page, $message)
+{
+    header('location:'.$page.'?success=1&message='.$message.'');
+    exit();
+}
+
+function displayError($page, $message)
+{
+    header('location:'.$page.'?error=1&message='.$message.'');
+    exit();
+}
+
 function getMessage()
 {
     if(isset($_GET['error']) && isset($_GET['message'])) {

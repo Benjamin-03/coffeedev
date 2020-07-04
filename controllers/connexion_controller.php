@@ -1,7 +1,8 @@
 <?php
 
 if(isset($_SESSION['connect_user'])){
-    
+    header('location: home');
+    exit();
 }
 
 if(isset($_POST['btn-connexion'])){
